@@ -1,4 +1,5 @@
-#Algoritmo para converter temperatura de Celsius para Fahrenheit
-celsius = float(input("Digite a temperatura em Celsius: "))
-fahrenheit = (celsius * 1.8) + 32
-print("A temperatura em Fahrenheit é: {:.2f}".format(fahrenheit))
+# converter celsius para fahrenheit
+
+c = float(input("digite a temperatura: "))
+f = (c * 1.8) + 32
+print("fahrenheit =", f)
